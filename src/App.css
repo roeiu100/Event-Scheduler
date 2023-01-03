@@ -1,0 +1,33 @@
+
+table, td, th {  
+  border: 2px solid #ddd;
+  text-align: center;
+}
+
+table {
+  
+  border-collapse: collapse;
+  width: 20vw;
+}
+
+th, td {
+  padding: 15px;
+}
+th:hover {background-color: coral;}
+ .nav{
+  background-color:seagreen;
+  display: flex;
+  justify-content: space-around;
+  height: 10vh;
+  opacity: 0.8;
+
+ }
+ .navlink{
+  font-size: 40px;
+  font-weight: 600;
+  color: black;
+  text-decoration: none;
+ }
+ .navlink:hover{
+  color: greenyellow;
+ }
